@@ -1,0 +1,15 @@
+@import url("./base.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./homePage.css");
+@import url("./category.css");
+@import url("./detailPage.css");
+@import url("./slides.css");
+/* repsonsive */
+@import url("./responsive/responsiveMoblie.css");
+@import url("./responsive/responsiveTablet.css");
+@import url("./responsive/responsivePC.css");
+/* @import url("./.css"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css");
+@import url("../font-awesome-4.7.0/css/font-awesome.min.css");

@@ -1,0 +1,70 @@
+*{}
+
+.pagination-block {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.pagination-block a {
+    margin-left: 1.5rem;
+}
+
+.pagination-block a {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    transition: .2s;
+    color: var(--color-gray-light2);
+}
+
+a.pagination--previous:hover, a.pagination--next:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a.pagination--previous, a.pagination---next {
+}
+
+.navgation-block .route span {
+    font-size: 1.3rem;
+}
+
+.navgation-block .route span a {
+    text-decoration: none;
+    color: var(--color-gray-light2);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navgation-block .route span .currentPage {
+    color: var(--color-gray-light2);
+    text-transform: uppercase;
+}
+
+.description {
+    font-size: 1.6rem;
+    margin: 1rem 0 0  0;
+    line-height: 2.88rem;
+}
+
+.main-block-heading {
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    color: var(--color-black);
+}
+
+.main-block-heading h1 {
+    margin: 0 0 0rem .4rem;
+    color: var(--color-primary);
+}
+
+.main-block-heading h1 a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+}
